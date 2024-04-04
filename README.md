@@ -1,0 +1,2 @@
+# MenaxhimiSpitalitapp
+Spitali
