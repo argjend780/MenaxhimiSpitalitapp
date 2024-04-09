@@ -7,7 +7,8 @@ import {
     Link
     } from "react-router-dom"
     import Login from './Login';
-    import Register from './Register'
+    import Register from './Register';
+    import Doktoret from './Doktorett';
     
 function Navigimi() {
   return (
@@ -21,6 +22,7 @@ function Navigimi() {
           <Nav.Link as={Link} to="/">Home</Nav.Link>
           <Nav.Link as={Link} to="/login">Login</Nav.Link>
           <Nav.Link as={Link} to="/register">Register</Nav.Link>
+          <Nav.Link as = {Link} to="/Doktorett" >doktoret</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
@@ -29,6 +31,7 @@ function Navigimi() {
     <Routes>
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
+        <Route path="/Doktorett" element={<Doktoret/>}/>
 
 
     </Routes>
