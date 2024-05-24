@@ -1,0 +1,58 @@
+{
+  "database": {
+    "1712689207722": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "user": "root",
+      "password": "System.out.println(mysql);",
+      "dbType": "MySQL",
+      "name": "Spitali",
+      "advance": {
+        "hideSystemSchema": true
+      },
+      "timezone": "+00:00",
+      "useConnectionString": false,
+      "usingSSH": false,
+      "useSocksProxy": false,
+      "useHTTPProxy": false,
+      "global": true,
+      "savePassword": "Forever",
+      "readonly": false,
+      "sort": 11,
+      "useSSL": false,
+      "fs": {
+        "showHidden": true
+      },
+      "key": "1712689207722",
+      "connectionKey": "database.connections"
+    },
+    "1712689415282": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "user": "root",
+      "password": "System.out.println(mysql);",
+      "dbType": "MySQL",
+      "name": "Spitalit",
+      "advance": {
+        "hideSystemSchema": true
+      },
+      "timezone": "+00:00",
+      "usingSSH": false,
+      "useSocksProxy": false,
+      "useHTTPProxy": false,
+      "global": true,
+      "savePassword": "Forever",
+      "readonly": false,
+      "sort": 12,
+      "group": "Parent\\submission",
+      "useSSL": false,
+      "fs": {
+        "showHidden": true
+      },
+      "key": "1712689415282",
+      "connectionKey": "database.connections"
+    }
+  },
+  "nosql": null,
+  "$schema": "http://127.0.0.1:8828/schema.json"
+}
